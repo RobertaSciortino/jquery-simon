@@ -27,18 +27,22 @@ $(document).ready(function(){
   $("#color1").click(() => {
     userSelection(colors.GREEN);
     green.play();
+    activeGreen();
   });
   $("#color2").click(() => {
     userSelection(colors.RED);
     red.play();
+    activeRed();
   });
   $("#color3").click(() => {
     userSelection(colors.YELLOW);
     yellow.play();
+    activeYellow();
   });
   $("#color4").click(() => {
     userSelection(colors.BLUE);
     blue.play();
+    activeBlue();
   });
 
   //click counter
